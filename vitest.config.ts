@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/craftpilot-ai/",
   test: {
     environment: "jsdom",
     globals: true,
